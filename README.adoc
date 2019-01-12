@@ -1,0 +1,18 @@
+:chapter-label:
+:icons: font
+:lang: en
+:sectanchors:
+:sectnums:
+:sectnumlevels: 3
+:source-highlighter: highlightjs
+:toc: preamble
+:toclevels: 1
+
+:author: isuke
+:email: isuke770@gmail.com
+
+= git-consistent-lint image:https://travis-ci.org/isuke/git-consistent-lint.svg?branch=master["Build Status", link="https://travis-ci.org/isuke/git-consistent-lint"] image:https://img.shields.io/badge/git--consistent-friendly-brightgreen.svg["git-consistent friendly",link="https://github.com/isuke/git-consistent"]
+
+To check your project's git logs.
+
+link:https://github.com/isuke/git-consistent[git-consistent]

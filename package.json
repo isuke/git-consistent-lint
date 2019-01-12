@@ -1,0 +1,42 @@
+{
+  "name": "git-consistent-lint",
+  "version": "0.0.1",
+  "description": "To check your project's git logs.",
+  "keywords": [
+    "git",
+    "commit",
+    "commitizen",
+    "lint"
+  ],
+  "homepage": "https://github.com/isuke/git-consistent-lint",
+  "repository": "git@github.com:isuke/git-consistent-lint.git",
+  "author": "isuke <isuke770@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "preferGlobal": true,
+  "engines": {
+    "node": "<=12"
+  },
+  "bin": {
+    "git-consistent-iint": "./lib/index.js"
+  },
+  "scripts": {
+    "deploy": "./deploy.sh",
+    "lint": "eslint lib/**/*.js test/**/*.js",
+    "fix": "eslint --fix lib/**/*.js test/**/*.js",
+    "test": "ava --verbose"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "pegjs": "0.11.0-master.30f3260"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "outdent": "^0.7.0",
+    "prettier": "^1.17.0",
+    "sinon": "^7.3.2"
+  }
+}
