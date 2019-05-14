@@ -16,3 +16,9 @@
 To check your project's git logs.
 
 link:https://github.com/isuke/git-consistent[git-consistent]
+
+== Usage
+
+```sh
+$ git log -n 1 --pretty=format:'%B' | git-consistent-lint
+```
